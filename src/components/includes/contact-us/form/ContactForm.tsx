@@ -10,7 +10,7 @@ const ContactForm = () => {
         <input
           type="text"
           id="fullName"
-          placeholder="Your Name"
+          placeholder="Enter Name"
           className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-red-500"
         />
       </div>
@@ -22,7 +22,7 @@ const ContactForm = () => {
         <input
           type="email"
           id="email"
-          placeholder="you@gmail.com"
+          placeholder="Enter Email"
           className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-red-500"
         />
       </div>

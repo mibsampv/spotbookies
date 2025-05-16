@@ -16,7 +16,7 @@ const CategoryGallery = () => {
     },
     {
       title: "03.",
-      subtitle: "Dance Perfomnace",
+      subtitle: "Dance Performance",
       image: "/assets/images/category3.jpg",
     },
     {
@@ -65,6 +65,25 @@ const CategoryGallery = () => {
         </div>
       ))}
     </div>
+
+
+    // <ul className="w-full flex flex-wrap gap-[2%] mb-[-2%]">
+    //   {troupes.map((troupe, index) => (
+    //     <li
+    //       key={index}
+    //       className="relative cover overflow-hidden w-[32%] aspect-[2/1] mb-[2%] max-[640px]:w-[49%] max-[480px]:w-full"
+    //     >
+    //       <Image
+    //         src={troupe.image}
+    //         alt={troupe.title}
+    //         fill
+            
+    //         className="w-full block"
+    //         priority
+    //       />
+    //     </li>
+    //   ))}
+    // </ul>
   );
 };
 

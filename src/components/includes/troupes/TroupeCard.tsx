@@ -17,7 +17,6 @@ const TroupeCard = () => {
     slidesToScroll: 1,
     draggable: true,
     swipe: true,
-    autoplay: true,
     autoplaySpeed: 2000,
     pauseOnHover: true,
     nextArrow: <CustomNextArrow />,
@@ -78,7 +77,7 @@ const TroupeCard = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/100 via-black/30 to-transparent" />
               <div className="absolute flex flex-col sm:flex-row justify-end sm:justify-between items-start sm:items-end p-4 h-full w-full">
-                <div>
+                <div className="w-[180px]">
                   <h4 className="text-white font-medium sm:font-semibold text-lg sm:text-2xl lg:text-3xl">
                     {troupe.title}
                   </h4>
