@@ -10,7 +10,7 @@ const Logo = () => {
         <div className="flex items-center gap-0.5 cursor-pointer">
           <div className="w-[50px] md:w-[60px]">
             <Image
-              src="/assets/icons/logo.svg"
+              src="/assets/icons/Logo.svg"
               alt="logo"
               height="100"
               width="100"
