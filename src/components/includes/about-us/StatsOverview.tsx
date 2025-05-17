@@ -6,8 +6,8 @@ const StatsOverview = () => {
   return (
     <>
       <div className="pb-14">
-        <div className="border bg-white rounded-xl border-white p-8">
-          <div className="grid grid-cols-1 sm:flex sm:flex-wrap flex-row items-center justify-between px-10">
+        <div className="border bg-white rounded-xl border-white py-8">
+          <div className="grid grid-cols-1 sm:flex sm:flex-wrap flex-row items-center justify-between ">
             <div className="mb-5 sm:mb-0 flex flex-row items-center gap-3">
               <div className="w-[42px]">
                 <Image
